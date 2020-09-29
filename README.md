@@ -28,24 +28,6 @@ Now, you can try out all the demos on http://localhost:3000.
 ## Demo
 ```html
 <!-- wrap the text node with <a href="#"> , <span>, blabla is also OK. Note:text node must immediately follow the <li> tag, with no intervening characters of any kind.  -->
-<ul id="ul-data">
-  <li>Lao Lao
-    <ul>
-      <li>Bo Miao</li>
-      <li>Su Miao
-        <ul>
-          <li>Tie Hua</li>
-          <li>Hei Hei
-            <ul>
-              <li>Pang Pang</li>
-              <li>Xiang Xiang</li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </li>
-</ul>
 ```
 ```js
 let orgchart = new OrgChart({
